@@ -1,5 +1,5 @@
 <?php
-$host_db = "localhost:3306";
+$host_db = "localhost";
 $user_db = "root";
 $pass_db = "";
 $db_name = "vagabundos";
