@@ -19,11 +19,6 @@
           <label for="last_name">Last Name</label>
         </div>
       </div>
-      <div class="row">
-        <div class="input-field col s12">
-          <input disabled value="I am not editable" id="disabled" type="text" class="validate">
-          <label for="disabled">Disabled</label>
-        </div>
       </div>
       <div class="row">
         <div class="input-field col s12">
