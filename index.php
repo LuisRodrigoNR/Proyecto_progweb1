@@ -20,7 +20,7 @@
                     <br><br>
                 <label for="Contraseña"></label>
                     <br><br>
-                <input name="password" type="text" placeholder="Ingresa Contraseña" require class="tamaño"> 
+                <input name="password" type="password" placeholder="Ingresa Contraseña" require class="tamaño"> 
                     <br><br>
                 <button>Entrar</button> <br><br>  
                     <br>
