@@ -1,7 +1,7 @@
 <?php
 $host_db = "localhost:3306";
 $user_db = "root";
-$pass_db = "1234";
+$pass_db = "";
 $db_name = "vagabundos";
 
 $conexion = new mysqli($host_db, $user_db, $pass_db, $db_name);

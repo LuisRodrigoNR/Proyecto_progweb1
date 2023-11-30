@@ -11,8 +11,9 @@
     <title>Login</title>
 </head>
 <body>
-    <form action="respuesta.php" method="post">
-            <div class=ventana>
+<div class=ventana>
+            <form action="respuesta.php" method="post">
+            
                 <br>
                 <label for="Usuario"></label>
                     <br><br>
@@ -22,9 +23,13 @@
                     <br><br>
                 <input name="password" type="password" placeholder="Ingresa Contraseña" require class="tamaño"> 
                     <br><br>
-                <button>Entrar</button> <br><br>  
+                <button type="submit">Entrar</button> <br><br>  
                     <br>
-            </div>
-    </form>
+           
+            </form>
+            <br><br>
+    <a href="registro.php">Registrarse</a>
+    </div>
+   
 </body>
 </html>

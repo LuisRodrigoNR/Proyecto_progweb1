@@ -8,12 +8,12 @@
 </head>
 <body>
     <div>
-      <form action="" method="POST">
+      <form action="crea.php" method="POST">
         <label for="Nombre">Nombre</label><br><br>
         <input name="nombre" type="text" placeholder="Nombre" require class="tamaño">
         <br><br>
         <label for="sexo">sexo</label>
-        <select>
+        <select name="sexo">
       <option value="" disabled selected>Elige</option>
       <option value="1">Masculino</option>
       <option value="2">Femenino</option>
@@ -24,7 +24,23 @@
         <br><br>
         <label>Contraseña</label><br><br>
         <input name="password" type="text" placeholder="password" require class="tamaño">
+        <br><br>
+        <label>email</label><br><br>
+        <input name="email" type="email" placeholder="email" require class="tamaño">
+        <br><br>
+        <button type="submit">Registrarse</button>
       </form>
     </div>
+    <br><br>
+    <a href="index.php">ya tienes cuenta</a>
+
+    <?php
+    session_start();
+    if(isset($_SESSION['error'])){
+      echo $_SESSION['error'];
+      unset( $_SESSION['error']);
+
+    }
+    ?>
 </body>
 </html>
