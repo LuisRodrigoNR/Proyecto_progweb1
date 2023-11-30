@@ -12,7 +12,7 @@
 </head>
 <body>
 <div class=ventana>
-            <form action="respuesta.php" method="post">
+            <form action="login.php" method="post">
             
                 <br>
                 <label for="Usuario"></label>
@@ -30,6 +30,14 @@
             <br><br>
     <a href="registro.php">Registrarse</a>
     </div>
-   
+   <br>
+   <?php
+    session_start();
+    if(isset($_SESSION['error'])){
+      echo $_SESSION['error'];
+      unset( $_SESSION['error']);
+
+    }
+    ?>
 </body>
 </html>
