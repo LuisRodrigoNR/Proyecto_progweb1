@@ -10,27 +10,29 @@
     <link rel="stylesheet" href="estilos.css">
     <title>Login</title>
 </head>
-<body>
+<body class=fondito>
+<div class=alinear>    
+<img src="https://www.animalesexoticos.org/wp-content/uploads/2019/12/foca-arpa-groenlandia.jpg" alt="" class=imagen>  
 <div class=ventana>
             <form action="login.php" method="post">
-            
-                <br>
+            <h1>Focalandia</h1>
+                
                 <label for="Usuario"></label>
                     <br><br>
                 <input name="nombre_usuario" type="text" placeholder="Ingresa Usuario" require class="tamaño">
-                    <br><br>
+                    <br>
                 <label for="Contraseña"></label>
                     <br><br>
                 <input name="password" type="password" placeholder="Ingresa Contraseña" require class="tamaño"> 
                     <br><br>
-                <button type="submit">Entrar</button> <br><br>  
+                <button type="submit" class=botones>Entrar</button> <br><br>  
                     <br>
            
             </form>
-            <br><br>
-    <a href="registro.php">Registrarse</a>
+            <br>
+    <a href="registro.php"><h3>Registrarse</h3></a>
     </div>
-   <br>
+    </div>
    <?php
     session_start();
     if(isset($_SESSION['error'])){

@@ -4,10 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Registro</title>
-
+    <link rel="stylesheet" href="estilos.css">
 </head>
-<body>
-    <div>
+<body class=centro>
       <form action="crea.php" method="POST">
         <label for="Nombre">Nombre</label><br><br>
         <input name="nombre" type="text" placeholder="Nombre" require class="tamaño">
@@ -32,7 +31,7 @@
       </form>
     </div>
     <br><br>
-    <a href="index.php">ya tienes cuenta</a>
+    <a href="index.php"><h3>ya tienes cuenta</h3></a>
 
     <?php
     session_start();

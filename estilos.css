@@ -1,6 +1,7 @@
 
 .ventana{
     border: 10px solid grey;
+    border-radius: 10px;
     box-shadow: 5px 5px 5px #34495e;
     text-align: center;
     background: #95a5a6;
@@ -12,4 +13,103 @@
     padding-top: 30px;
     padding-bottom: 30px;
     background-color: aqua;
+}
+
+.imagen{
+    width: 800px;
+    text-align: left;
+    height: auto;
+}
+
+.alinear{
+    display: flex;
+
+}
+
+.fondito{
+    background-color: blanchedalmond;
+}
+
+.tamaño{
+    border-radius: 8px;
+    border: 0;
+    font-size: 20px;
+    text-align: center;
+    margin: 8px;
+}
+
+.botones{
+    border: 0;
+    border-radius: 20px;
+    font-size: 20px;
+    text-align: center;
+    height: 40px;
+    width: 100px;
+    
+}
+
+.botones:hover{
+    background-color: #95a5a6;
+}
+
+.titulo{
+  text-align: center;
+  color: #D04E4E;
+}
+
+.titulo2{
+    text-align: center;
+    font-size: xx-large;
+    color: #D04E4E;
+}
+
+.fonditodesesion{
+    background-color: #170000
+
+    ;
+    
+}
+
+a{
+    text-decoration: none;
+    color: #AC4ED0;
+}
+
+a:hover{
+    text-decoration: none;
+    color: white;
+}
+
+table{
+    border-collapse: collapse;
+    font-size: 20px;
+    flex: 1;
+}
+
+th, td{
+    padding-right: 10px;
+    padding-left: 10px;
+    text-align: center;
+    height: 5px;
+}
+tr{
+    height: 5px;
+}
+tr:nth-child(even){
+    background-color: white;
+    
+}
+
+tr:nth-child(odd){
+    background-color: #c4c4c4;
+}
+
+tr:first-child {
+    background-color: #999999;
+}
+
+.centro
+{
+    text-align: center;
+    background-color: aquamarine;
 }

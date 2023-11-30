@@ -9,6 +9,7 @@ $resulado=$conexion->query($consulta);
 
 session_start();
 if($resulado->num_rows>0){
+    $_SESSION["Nusuario"]=$Usuario;
     header("Location: sesion.php");
 
 }
